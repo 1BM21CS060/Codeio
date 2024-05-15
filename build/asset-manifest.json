@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eaab5fc0.css",
+    "main.js": "/static/js/main.8b2ae69e.js",
+    "static/js/453.7304d3bc.chunk.js": "/static/js/453.7304d3bc.chunk.js",
+    "static/media/bmsce_logo.png": "/static/media/bmsce_logo.b59fbf9b76a563c2d98a.png",
+    "index.html": "/index.html",
+    "main.eaab5fc0.css.map": "/static/css/main.eaab5fc0.css.map",
+    "main.8b2ae69e.js.map": "/static/js/main.8b2ae69e.js.map",
+    "453.7304d3bc.chunk.js.map": "/static/js/453.7304d3bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaab5fc0.css",
+    "static/js/main.8b2ae69e.js"
+  ]
+}
