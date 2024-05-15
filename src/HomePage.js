@@ -1,17 +1,26 @@
 import React from 'react';
 import './HomePage.css';
 
-
 function HomePage() {
+  // Define an array with the words to be repeated
+  const words = ["Avani", "Treat"];
+  
+  // Define the number of repetitions for each word
+  const repetitions = 50; // You can adjust this number as needed
+  
+  // Generate an array of repeated words
+  const repeatedWords = [];
+  words.forEach(word => {
+    for (let i = 0; i < repetitions; i++) {
+      repeatedWords.push(word);
+    }
+  });
+
   return (
     <div className="home-page">
-      <h1>Avani </h1>
-      <h2>Avani </h2>
-      <h3>Avani </h3>
-      <h4>Avani </h4>
-      <h5>Avani </h5>
-      <h6>Avani </h6>
-      
+      {repeatedWords.map((word, index) => (
+        <div key={index} className="word">{word}</div>
+      ))}
     </div>
   );
 }
